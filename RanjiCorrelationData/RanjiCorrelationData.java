@@ -28,7 +28,20 @@ public class RanjiCorrelationData {
 				currx = 1;
 			else currx = 2;
 			
-			if (words[0].equals(words[1])) curry = 1;
+			String yWord = "";
+			
+			if (x == 0)
+			{
+				yWord = words[0];
+			}
+			else{
+			for (int i = 0; i < words[0].length()-1; i++)
+			{
+				yWord += words[0].charAt(i);
+			}
+			}
+			
+			if (yWord.equals(words[1])) curry = 1;
 			else curry = 0;
 			
 			xValues.add(currx);
