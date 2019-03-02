@@ -8,3 +8,16 @@ After watching the reason Ranji Trophy finals, it occurred to me that there is a
 It chews data from a file containing various matchwins + tosswins for different season and spits out one line of text
 
 ![alt text](https://raw.githubusercontent.com/pranay-venkatesh/RandomStats/master/RanjiCorrelationData/rValueScreenshot.png)
+
+
+# Area under the curve and Weighted Average
+
+A common required calculation is area under the curve. Weighted average is 1/range * integral(xf(x)) for the range (pardon my formatting skills, I'm working on it).
+
+![alt-text](https://raw.githubusercontent.com/pranay-venkatesh/RandomStats/master/AUC/epowx.png)
+
+for the above curve which is exp (-x^2), we get the area under the curve to be:
+
+![alt-text](https://raw.githubusercontent.com/pranay-venkatesh/RandomStats/master/AUC/Output1.png)
+
+The actual area is supposed to be pi/root2, and this value ends up being accurate! So, not bad.
