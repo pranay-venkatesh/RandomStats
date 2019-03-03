@@ -21,4 +21,14 @@ The clever way to solve this is using the Cauchy Residue Theorem, (which is what
 
 So, BOOM! You can do calculate any area you wish to (approximate to three or so decimal places) without gruelling calculations of antiderivatives, or finding out the residues of some arbitrary complex function.
 
+
+* Plotter
+
+The program also writes code into an R file called "fPlot.R", which you have to manually execute unfortunately. Once you execute fPlot.R, you get a .png file called "function.png", which when you open, will reveal a nice curve of the required function for the required range.
+
+![alt-text](https://raw.githubusercontent.com/pranay-venkatesh/RandomStats/master/AUC_Any_Function/function.png)
+
+
+Feel free to use this tool as you wish.
+
 Enjoy!
