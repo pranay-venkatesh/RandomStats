@@ -1,7 +1,7 @@
 # RandomStats
 A bunch of random statistics calculations (mainly R and Java)
 
-# Ranji Correlation
+# Correlation Analysis
 
 After watching the reason Ranji Trophy finals, it occurred to me that there is a strong connection between winning the toss in the finals and winning the match. So, I quickly wrote a Java program to use Pearson's Correlation Formula to find out whether there is a correlation between winning Ranji Finals and winning the toss in Ranji Finals.
 
