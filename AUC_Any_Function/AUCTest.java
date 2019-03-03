@@ -37,6 +37,21 @@ public class AUCTest {
         
     }
     
+    void plot(String f1, double lB, double uB) throws Exception
+    {
+        File f = new File ("fPlot.R");
+        f.createNewFile();
+        PrintWriter pw = new PrintWriter (f);
+        
+                
+        pw.println("f = function(x){" + f1 + "}");
+        
+        pw.println("png ('function.png')");
+        String m = "plot (f(" + lB + ":" + uB + ")" + " xlab = 'x', ylab = '1/(1 + x^4)', type = 'l')";
+        pw.println(m);
+        pw.println("dev.off()");
+        pw.close();
+    }
     
     double findArea(double lowerBound, double upperBound, double deltai)
     {
@@ -58,13 +73,15 @@ public class AUCTest {
         Scanner in = new Scanner (System.in);
         AUCTest ob = new AUCTest();
         System.out.println("Enter the function in Java syntax");
-        
-        ob.setF(in.nextLine());
+        String f = in.nextLine();
+        ob.setF(f);
         System.out.println("Set lower bound, upper bound, variation");
         double lB = in.nextDouble();
         double uB = in.nextDouble();
         double v = in.nextDouble();
         System.out.println(ob.findArea(lB, uB, v)); 
+        
+        ob.plot(f, lB, uB);
         
         in.close();
         
