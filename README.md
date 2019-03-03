@@ -21,3 +21,11 @@ for the above curve which is exp (-x^2), we get the area under the curve to be:
 ![alt-text](https://raw.githubusercontent.com/pranay-venkatesh/RandomStats/master/AUC/Output1.png)
 
 The actual area is supposed to be pi/root2, and this value ends up being accurate! So, not bad.
+
+# AUC Any function
+
+A new tool! So, I have a maths exam coming up and I often feel like checking my work and seeing whether I'm computing my integrals correctly or not. So, I use this tool to find out::
+
+![alt-text](https://raw.githubusercontent.com/pranay-venkatesh/RandomStats/master/AUC_Any_Function/Output1.png)
+
+Enter any syntactically correct function in Java and the program will find you your solution for a neat range.
