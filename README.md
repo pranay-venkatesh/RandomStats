@@ -20,7 +20,7 @@ for the above curve which is exp (-x^2), we get the area under the curve to be:
 
 ![alt-text](https://raw.githubusercontent.com/pranay-venkatesh/RandomStats/master/AUC/Output1.png)
 
-The actual area is supposed to be pi/root2, and this value ends up being accurate! So, not bad.
+The actual area is supposed to be root(pi), and this value ends up being accurate! So, not bad.
 
 # AUC Any function
 
